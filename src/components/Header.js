@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="bg-blue-500">
       <div className="flex justify-between">
-        <h1 className="text-white text-3xl py-10 px-32 font-bold">Writing Blog</h1>
+        <Link to="/" className="text-white text-3xl py-10 px-32 font-bold">
+          Writing Blog
+        </Link>
         <div className="flex items-center justify-center gap-3 px-32">
           <input
             placeholder="Username"

@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HouseGuest />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/terms" element={<Terms />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/terms-and-conditions" element={<Terms />} />
       </Routes>
       <Footer />
     </BrowserRouter>

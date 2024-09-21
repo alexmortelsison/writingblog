@@ -9,10 +9,13 @@ const Footer = () => {
           <Link to="/" className="hover:underline cursor-pointer">
             Home |
           </Link>
-          <Link to="/about" className="hover:underline cursor-pointer">
+          <Link to="/about-us" className="hover:underline cursor-pointer">
             About Us |
           </Link>
-          <Link to="/terms" className="hover:underline cursor-pointer">
+          <Link
+            to="/terms-and-conditions"
+            className="hover:underline cursor-pointer"
+          >
             Terms
           </Link>
         </li>
