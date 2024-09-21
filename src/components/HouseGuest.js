@@ -6,7 +6,7 @@ const HouseGuest = () => {
       <div className="flex-wrap items-center justify-center">
         <h1 className="text-7xl ">Remember Writing?</h1>
         <p className="text-3xl text-gray-500 mt-4">
-          Are you sick of short tweets and impersonal "shared posts that are
+          Are you sick of short tweets and impersonal shared posts that are
           reminiscent of the late 90's email forwards? We believe getting back
           to actually writing is the key to enjoying the internet again.
         </p>

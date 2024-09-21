@@ -1,19 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="items-center justify-center mt-44 text-gray-500 border-t-2">
       <ul className="flex items-center justify-center">
         <li className="flex gap-2 text-blue-500 font-semibold">
-          <a href="#" className="hover:underline cursor-pointer">
+          <Link to="/" className="hover:underline cursor-pointer">
             Home |
-          </a>
-          <a href="#" className="hover:underline cursor-pointer">
+          </Link>
+          <Link to="/about" className="hover:underline cursor-pointer">
             About Us |
-          </a>
-          <a href="#" className="hover:underline cursor-pointer">
+          </Link>
+          <Link to="/terms" className="hover:underline cursor-pointer">
             Terms
-          </a>
+          </Link>
         </li>
       </ul>
 
